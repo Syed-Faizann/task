@@ -114,10 +114,10 @@ export default function QuestionCard({ index, data, onChange, onDelete, onSave }
 
        
           <div className="flex items-center justify-between md:pr-32 sm:flex-row sm:items-center gap-2 sm:gap-4">
-            <h1 className="text-[#222222] text-base sm:text-lg font-bold whitespace-nowrap">
+            <h1 className="text-[#222222] text-sm sm:text-lg font-bold whitespace-nowrap">
               Source:
             </h1>
-            <p className="text-[#4E4E4E] text-[12px] md:text-sm sm:text-md underline break-all cursor-pointer">
+            <p className="text-[#4E4E4E] text-[9px] md:text-sm sm:text-md underline break-all cursor-pointer">
               Placeholder for the link of the source answer
             </p>
           </div>
