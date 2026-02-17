@@ -12,16 +12,16 @@ const Forget = ({ setMode }) => {
 
   return (
     <>
-      <h1 className="text-black text-6xl font-bold mt-8 mb-2">
+      <h1 className="text-black text-4xl md:text-6xl font-bold mt-8 mb-2">
         Forgot Your <br /> Password
       </h1>
 
-      <p className="text-black mb-6 mt-6">
+      <p className="text-black text-[14px] md:text-base mb-6 mt-6">
         Enter your email address and we'll send you a reset link
       </p>
 
       <form className="mt-4 flex flex-col" onSubmit={handleSend}>
-        <label className="text-gray-500 text-sm font-medium mt-2 ml-1">
+        <label className="text-gray-500 text-[12px] md:text-sm font-medium mt-2 ml-1">
           Email*
         </label>
 
@@ -35,7 +35,7 @@ const Forget = ({ setMode }) => {
 
         <button
           type="submit"
-          className="mt-6 bg-black hover:bg-[#0ea89b] text-white font-bold text-xl py-2 rounded-full transition-colors"
+          className=" mt-6 bg-black hover:bg-[#0ea89b] text-white text-lg md:text-xl py-2 rounded-full transition-colors"
         >
           Send
         </button>

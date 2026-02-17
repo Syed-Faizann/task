@@ -16,12 +16,12 @@ const ResetPassword = ({ setMode }) => {
 
   return (
     <>
-      <h1 className="text-black text-6xl font-bold mt-8 mb-2">
+      <h1 className="text-black text-4xl md:text-6xl font-bold mt-8 mb-2">
         Reset Your <br /> Password
       </h1>
 
       <form className="mt-9 flex flex-col">
-        <label className="text-gray-500 text-sm font-medium mt-2">
+        <label className="text-gray-500 text-[12px] md:text-sm font-medium mt-2">
           New Password*
         </label>
         <input
@@ -29,7 +29,7 @@ const ResetPassword = ({ setMode }) => {
           type="password"
         />
 
-        <label className="text-gray-500 text-sm font-medium mt-5">
+        <label className="text-gray-500 text-[12px] md:text-sm font-medium mt-5">
           Confirm New Password*
         </label>
         <div className="relative w-full">
@@ -44,13 +44,13 @@ const ResetPassword = ({ setMode }) => {
         </div>
 
         <div>
-          <h1 className="text-black mt-3">Your password must:</h1>
+          <h1 className="text-black text-[16px] md:text-base mt-3">Your password must:</h1>
 
           <ul>
             {restrictions.map((item, index) => (
               <li
                 key={index}
-                className="text-gray-500 text-sm font-medium mt-2 ml-1"
+                className="text-gray-500 text-[12px] md:text-sm font-medium mt-2 ml-1"
               >
                 {item}
               </li>
@@ -61,7 +61,7 @@ const ResetPassword = ({ setMode }) => {
         <button
           onClick={handleSubmit}
           type="button"
-          className="mt-15 bg-black hover:bg-[#0ea89b] text-white font-bold text-xl py-2 rounded-full transition-colors"
+          className="mt-15 bg-black hover:bg-[#0ea89b] text-white  text-lg md:text-xl py-2 rounded-full transition-colors"
         >
           Reset
         </button>

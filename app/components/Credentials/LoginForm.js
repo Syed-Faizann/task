@@ -14,10 +14,10 @@ const LoginForm = ({ setMode }) => {
 
   return (
     <>
-      <h1 className="text-black text-4xl font-bold mt-8 mb-2">Login</h1>
+      <h1 className="text-black text-3xl md:text-4xl font-bold mt-8 mb-2">Login</h1>
 
       <form className="mt-4 flex flex-col">
-        <label className="text-gray-500 text-sm font-medium mt-2">
+        <label className="text-gray-500 text-[12px] md:text-sm font-medium mt-2">
           Username or email*
         </label>
         <input
@@ -27,7 +27,7 @@ const LoginForm = ({ setMode }) => {
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <label className="text-gray-500 text-sm font-medium mt-5">
+        <label className="text-gray-500 text-[12px] md:text-sm font-medium mt-5">
           Password*
         </label>
         <div className="relative w-full">
@@ -46,7 +46,7 @@ const LoginForm = ({ setMode }) => {
           </button>
         </div>
 
-        <div className="flex justify-between items-center mt-8 text-sm">
+        <div className="flex justify-between items-center mt-8 text-[10px] md:text-sm">
           <label className="flex items-center gap-2 text-gray-600">
             <input type="checkbox" />
             Remember me
@@ -55,7 +55,7 @@ const LoginForm = ({ setMode }) => {
           <button
             type="button"
             onClick={() => setMode("forget")}
-            className="text-[#12BAB0] hover:underline"
+            className="text-[10px] md:text-base text-[#12BAB0] hover:underline"
           >
             Forgot My Password
           </button>
@@ -64,7 +64,7 @@ const LoginForm = ({ setMode }) => {
         <Link href="/dashboard" className="w-full">
           <button
             type="submit"
-            className="mt-6 bg-black text-white py-2 rounded-full w-full cursor-pointer"
+            className="mt-6 bg-black text-white py-2 font- rounded-full w-full cursor-pointer"
           >
             Login
           </button>

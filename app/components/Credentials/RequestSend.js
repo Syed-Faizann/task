@@ -7,11 +7,11 @@ const RequestSend = ({ setMode }) => {
   };
   return (
     <>
-      <h1 className="text-black text-6xl font-bold mt-8 mb-2">
+      <h1 className="text-black text-4xl md:text-6xl font-bold mt-8 mb-2">
         Forgot Your <br /> Password
       </h1>
 
-      <p className="text-black mb-6 mt-10">
+      <p className="text-black md:text-base text-[14px] mb-6 mt-10">
         A password reset message was sent to your email address. <br />
         Please click the link in that message to reset your password.
       </p>
@@ -19,7 +19,7 @@ const RequestSend = ({ setMode }) => {
       <button
         onClick={handleSubmit}
         type="submit"
-        className="w-full mt-15 bg-black hover:bg-[#0ea89b] text-white font-bold text-xl py-2 rounded-full transition-colors"
+        className="w-full mt-15 bg-black hover:bg-[#0ea89b] text-white  text-lg md:text-xl py-2 rounded-full transition-colors"
       >
         Login
       </button>
