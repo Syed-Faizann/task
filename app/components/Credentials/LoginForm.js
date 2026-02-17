@@ -21,7 +21,7 @@ const LoginForm = ({ setMode }) => {
           Username or email*
         </label>
         <input
-          className="border border-gray-300 rounded-full px-4 py-2 text-[#0A0A0A]"
+          className="border border-gray-300 rounded-full px-4 py-2 text-[#0A0A0A] focus:outline-none focus:ring-2 focus:ring-[#12BAB0]"
           type="text"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -32,7 +32,7 @@ const LoginForm = ({ setMode }) => {
         </label>
         <div className="relative w-full">
           <input
-            className="border border-gray-300 rounded-full px-4 py-2 w-full text-[#0A0A0A]"
+            className="border border-gray-300 rounded-full px-4 py-2 w-full text-[#0A0A0A] focus:outline-none focus:ring-2 focus:ring-[#12BAB0]"
             type={showPassword ? "text" : "password"}
             value={password}
             onChange={(e) => setPassword(e.target.value)}
