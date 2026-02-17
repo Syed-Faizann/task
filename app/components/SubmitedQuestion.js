@@ -62,7 +62,7 @@ const SubmitedQuestion = ({ data, index, onUpdate }) => {
           <h1 className="w-48 text-[#4C4D4E] text-base sm:text-lg font-bold">
             Question Active Till:
           </h1>
-          <div className="flex gap-4 flex-1 md:w-full max-w-1/2 mt-3">
+          <div className="flex md:flex-row flex-col gap-4 flex-1 md:w-full md:max-w-1/2 mt-3">
             <div className="relative w-full sm:w-1/2">
               <input
                 type="date"
@@ -101,7 +101,7 @@ const SubmitedQuestion = ({ data, index, onUpdate }) => {
         </div>
 
         <div className="flex items-center justify-between md:pr-45 sm:flex-row sm:items-center gap-2 sm:gap-4 mt-4">
-          <h1 className="text-[#222222] text-base sm:text-lg font-bold whitespace-nowrap">
+          <h1 className="text-[#222222] text-[12px] sm:text-lg font-bold whitespace-nowrap">
             Source:
           </h1>
           <p className="text-[#4E4E4E] text-[9px] md:text-sm sm:text-md underline break-all cursor-pointer">

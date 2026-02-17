@@ -1,7 +1,6 @@
 import React from "react";
 import banner from "../../assets/banner.jpg";
 import Image from "next/image";
-import { useState } from "react";
 import OnoingQuestions from "../OnoingQuestions";
 
 const Ongoing = () => {
