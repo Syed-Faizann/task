@@ -11,11 +11,11 @@ const Ongoing = () => {
         <div className="p-4 md:p-6 ">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3 sm:gap-4 flex-1">
             <div className="flex flex-col w-full sm:w-auto">
-              <h2 className="text-base md:text-lg flex xs:flex-row xs:items-center gap-1 sm:gap-2 text-[#282828]">
+              <h2 className="text-base items-center md:text-lg flex xs:flex-row xs:items-center gap-1 sm:gap-2 text-[#282828]">
                 <span className="text-lg sm:text-xl md:text-2xl font-bold whitespace-nowrap">
                   Ongoing Contest
                 </span>
-                <span className="text-sm sm:text-base md:text-xl text-[#4C4D4E] xs:ml-0 sm:ml-0">
+                <span className="text-[11px] sm:text-base md:text-xl text-[#4C4D4E] xs:ml-0 sm:ml-0">
                   | 23/06/01 - 23/07/01
                 </span>
               </h2>
@@ -30,7 +30,7 @@ const Ongoing = () => {
             </div>
           </div>
 
-          <p className="text-[#222222] pt-4">Add, remove questions</p>
+          <p className="text-[#222222] pt-4 md:text-base text-[13px]">Add, remove questions</p>
         </div>
 
         <div className="relative w-full md:w-[233px] h-[140px] sm:h-[160px] md:min-h-[160px]">

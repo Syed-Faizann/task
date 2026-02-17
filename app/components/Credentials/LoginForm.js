@@ -14,14 +14,14 @@ const LoginForm = ({ setMode }) => {
 
   return (
     <>
-      <h1 className="text-black text-3xl md:text-4xl font-bold mt-8 mb-2">Login</h1>
+      <h1 className="text-[#0A0A0A]  text-3xl md:text-4xl font-bold mt-8 mb-2">Login</h1>
 
       <form className="mt-4 flex flex-col">
         <label className="text-gray-500 text-[12px] md:text-sm font-medium mt-2">
           Username or email*
         </label>
         <input
-          className="border border-gray-300 rounded-full px-4 py-2"
+          className="border border-gray-300 rounded-full px-4 py-2 text-[#0A0A0A]"
           type="text"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -32,7 +32,7 @@ const LoginForm = ({ setMode }) => {
         </label>
         <div className="relative w-full">
           <input
-            className="border border-gray-300 rounded-full px-4 py-2 w-full"
+            className="border border-gray-300 rounded-full px-4 py-2 w-full text-[#0A0A0A]"
             type={showPassword ? "text" : "password"}
             value={password}
             onChange={(e) => setPassword(e.target.value)}
@@ -40,7 +40,7 @@ const LoginForm = ({ setMode }) => {
           <button
             type="button"
             onClick={() => setShowPassword(!showPassword)}
-            className="absolute right-4 top-1/2 -translate-y-1/2"
+            className="absolute right-4 top-1/2 text-[#12BAB0] -translate-y-1/2"
           >
             {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
           </button>

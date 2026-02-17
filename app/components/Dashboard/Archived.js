@@ -40,7 +40,7 @@ const Archived = ({ contests = [] }) => {
           className="bg-[#F0F0F3] rounded-xl shadow-md flex flex-col md:flex-row justify-between mb-6 overflow-hidden hover:shadow-lg transition-shadow duration-300"
         >
           <div className="p-4 md:p-6 flex flex-col justify-center flex-1">
-            <h2 className="text-base md:text-lg flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 text-[#282828]">
+            <h2 className="text-base md:text-lg flex items-center sm:flex-row sm:items-center gap-1 sm:gap-2 text-[#282828]">
               <span className="text-xl md:text-2xl font-bold">
                 {contest.title || `Contest ${contest}`}
               </span>

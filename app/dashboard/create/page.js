@@ -125,13 +125,13 @@ const handleSubmit = (e) => {
       <div className="flex justify-between items-center mt-6">
         <h1
           onClick={addQuestion}
-          className="text-xl font-semibold underline text-[#12BAB0] cursor-pointer"
+          className="text-md md:text-xl font-semibold underline text-[#12BAB0] cursor-pointer"
         >
           New Question <Plus className="inline-block ml-2" size={18} />
         </h1>
         <button
         onClick={handleSubmit}
-        className="px-8 py-2 bg-[#12BAB0] rounded-full cursor-pointer hover:bg-[#0f9c8f] transition-colors">
+        className="md:px-8 px-6 py-1 md:py-2 bg-[#12BAB0] rounded-full  text-[15px] md:text-base cursor-pointer hover:bg-[#0f9c8f] transition-colors">
           Submit
         </button>
       </div>
